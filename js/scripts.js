@@ -5,4 +5,11 @@ const listOfShopping = [
     'Uova',
     'Carne',
 ];
-console.log(listOfShopping)
+
+let i = 0;
+//console.log(listOfShopping)
+
+while (i < listOfShopping.length) {
+    console.log(i, listOfShopping[i])
+    i++;
+}
